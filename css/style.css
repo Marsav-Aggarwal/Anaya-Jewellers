@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{  height: auto;
+		width: 100%; 
+		float:left; 
+		padding: 0px 0px 400px 0px; 
+		margin: 0px; 
+		background-image: url("../images/bnrsnd.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+}
+.hdr{   height: auto;
+		width: 50%; 
+		padding: 0px; 
+		margin: 1% 25%;
+		background-color: #fff;
+		display: inline-block;
+		border-bottom-left-radius: 5px; 
+		border-bottom-right-radius: 5px;
+}
+
+.logo{	height: auto;
+		width: 20%;
+		float: left; 
+		padding: 0px; 
+		margin: 0px; 
+}
+.logo img{	height: 54px;
+			width: 72px;	
+			padding: 5px;
+			margin: 0px;
+}
+
+.nav_bar{	height: auto;
+			width: 80%;
+			float: right;
+			padding: 0px; 
+			margin: 0px;
+}
+.nav_bar ul{	float: none;
+				list-style: none;
+				margin: 30px 0px 0px 0px;
+				padding: 0px 5px;
+}
+.nav_bar li{	float: left;
+				margin:5px; 
+				padding: 0px 9px;
+}
+.nav_bar a{		text-decoration: none;
+				color: #5a5050;
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+				text-align: center;
+				font-size: 18px;
+}
+.nav_bar a:hover{	color: #262523;
+					font-family: arial "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+					text-decoration: underline;
+		
+}
+/* Header area ends here... */
+
+
+#cntnt{	height: auto; 
+		width: 100%;
+		float: left;
+		padding: 0px;
+		margin: 0px;
+}
+
+.bnr_para{	height: auto;
+			width: 100%;
+			float: none;
+			padding: 0px;
+			margin: 0 auto;
+			background-image: url("../images/bgcnt.jpg");
+			background-repeat: repeat;
+}
+.para_imgs{	height: auto; 
+			width: 55%;
+			float: none;
+			padding: 0px;
+			margin: 0 auto;
+}
+.des_pic{ 	height: 220px; 
+			width: 200px;
+			padding: 0px;
+			margin: 0px 15px;
+			box-shadow: 0.5px 0.5px 15px #333; 
+			border: solid 0.75px #fff;
+}
+/* Main cntnt starts from here... */
+
+
+#main_cntnt_wrpr{	height: auto; 
+					width: 100%;
+					float: left;
+					padding: 0px; 
+					margin: 0px;
+					background-image: url("../images/cntnt_wrpr.jpg");
+					background-repeat: no-repeat;
+					background-size: 100%;
+}
+.main_cntnt{	height: auto;
+				width: 50%;
+				float: none;
+				padding: 0px;
+				margin: 0 auto;
+}
+.cnt_descp{	height: auto;
+			width: 90%;
+			float: none;
+			padding: 5px 15px;
+			margin: 0 auto;
+			background-color: #fefefe;
+			display: inline-block;
+}
+.fst_bx{	height: auto;
+			width: 49%;
+			float: left;
+			padding: 0px;
+			margin: 0px;
+}
+.fst_bx img{	height: 190px; 
+				width: 200px;
+				margin: 10px 0px 0px 0px;
+				padding: 0px;
+				float: right;
+}
+.snd_bx{	height: auto;
+			width: 49%;
+			float: left;
+			padding: 0px;
+			margin: 40px 0px 0px 0px;
+}
+.snd_bx img{	height: 250px;
+				width: 290px;
+				padding: 0px;
+				margin: 30px 0px 0px 0px;
+}
+.btn{	text-decoration: none;
+		color: #37363e;
+		font-family: antic;
+		font-size: 20px;
+		text-align: center;
+		text-transform: capitalize;
+		border: solid 2px #ffe100; 
+		margin: 0px 0px 0px 10px ;
+		padding: 5px;
+}
+.btn:hover{	box-shadow: 1px 1px 5px #ffe100;
+				
+}
+.thrd_bx{	height: auto;
+			width: 49%;
+			float: left;
+			padding: 0px;
+			margin: 45px 0px 0px 0px;
+}
+.thrd_bx img{	height: 280px;
+				width: 260px;
+}
+.cnt_ln{	height: auto;
+			width: 2%;
+			margin: 0px;
+			padding: 0px;
+			float: left;
+}
+.cnt_ln img{	height: 310px;
+				width: 1px;
+				padding: 10px 0px 0px 0px;
+				margin: 0 auto;	
+}
+
+
+
+/* Content Area ends here....*/
+
+
+
+#fotr{	height: auto;
+		width: 100%;
+		float: left;
+		padding: 0px;
+		margin: 0px;
+		background-color: #f1edea;
+}
+.top_fotr{	height: auto;
+			width: 50%;
+			float: none;
+			margin: 0 auto;
+			padding: 0px;
+}
+.mdl_fotr{	height: auto;
+			width: 50%;
+			float: none;
+			padding: 0px;
+			margin: 0 auto;
+}
+.end_nav{	height: auto;
+			width: 80%;
+			float: none;
+			padding: 10px 0px;
+			margin: 0 auto;
+}
+.end_nav ul{	float: none;
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+}
+.end_nav li{	float: left;
+				margin: 0px 5px; 
+				padding: 0px 15px;
+}
+.end_nav a{	text-decoration: none;
+			color: #000;
+			font-family: arial;
+			font-size: 18px;
+			transition: all 1s ease;
+}
+.end_nav a:hover{	color: #2A2727;
+					text-shadow: 0px 0px 5px #808080;
+}
+
+.bottom_fotr{	height: auto;
+				width: 30%;
+				float: none;
+				margin: 0 auto;
+				padding: 20px 0px;
+}
+.gplog{	height: 30px;
+		width: 90px;
+		float: left;
+		padding: 5px 0px 0px 0px;
+		margin: 0px;
+}
+.aplog{	height: 40px;
+		width: 90px;
+		float: left;
+		margin: 0% 10%;
+		padding: 0px;
+}
+.cpyrght{	height: auto;
+			width: 300px;
+			float: none;
+			margin: 1% 36%;
+}
